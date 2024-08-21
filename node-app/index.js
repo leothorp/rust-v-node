@@ -12,10 +12,10 @@ function fibonacci(n) {
     }
 }
 
-app.get('/compute/fibonacci/:n', (req, res) => {
-    const n = parseInt(req.params.n, 10);
-    const result = fibonacci(n);
-    res.send(`Fibonacci(${n}) = ${result}`);
+app.get("/fibonacci/:n", (req, res) => {
+  const n = parseInt(req.params.n, 10);
+  const result = fibonacci(n);
+  res.send(`Fibonacci(${n}) = ${result}`);
 });
 
 

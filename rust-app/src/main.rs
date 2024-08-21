@@ -9,7 +9,7 @@ fn fibonacci(n: i64) -> i64 {
     }
 }
 
-#[get("/compute/fibonacci/<n>")]
+#[get("/fibonacci/<n>")]
 fn compute_fibonacci(n: i64) -> String {
     let result = fibonacci(n);
     format!("Fibonacci({}) = {}", n, result)

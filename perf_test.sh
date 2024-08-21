@@ -1,7 +1,7 @@
 #!/bin/bash
 
-RUST_URL="https://rvn-rust.onrender.com/compute/fibonacci/35"
-NODE_URL="https://rvn-node.onrender.com/compute/fibonacci/35"
+RUST_URL="https://rvn-rust.onrender.com/fibonacci/30"
+NODE_URL="https://rvn-node.onrender.com/fibonacci/30"
 
 THREADS=5   
 CONNECTIONS=100  
