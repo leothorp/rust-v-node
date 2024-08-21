@@ -1,6 +1,6 @@
 #!/bin/bash
 
-RUST_URL="https://rust-v-node.onrender.com/compute/fibonacci/35"
+RUST_URL="https://rvn-rust.onrender.com/compute/fibonacci/35"
 NODE_URL="https://rvn-node.onrender.com/compute/fibonacci/35"
 
 THREADS=12    

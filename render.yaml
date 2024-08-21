@@ -8,6 +8,8 @@ services:
   buildCommand: cargo build --release
   startCommand: cargo run --release
   rootDir: rust-app
+  env:
+    ROCKET_ADDRESS: 0.0.0.0
 - type: web
   name: rvn-node
   runtime: node
