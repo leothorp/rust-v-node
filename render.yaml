@@ -1,0 +1,19 @@
+services:
+- type: web
+  name: rvn-rust
+  runtime: rust
+  repo: https://github.com/leothorp/rust-v-node
+  plan: free
+  region: oregon
+  buildCommand: cargo build --release
+  startCommand: cargo run --release
+  rootDir: rust-app
+- type: web
+  name: rvn-node
+  runtime: node
+  repo: https://github.com/leothorp/rust-v-node
+  plan: free
+  region: oregon
+  buildCommand: pnpm i
+  startCommand: pnpm run start
+  rootDir: node-app
