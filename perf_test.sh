@@ -3,8 +3,8 @@
 RUST_URL="https://rvn-rust.onrender.com/compute/fibonacci/35"
 NODE_URL="https://rvn-node.onrender.com/compute/fibonacci/35"
 
-THREADS=12    
-CONNECTIONS=400  
+THREADS=5   
+CONNECTIONS=100  
 DURATION=30s  
 
 
